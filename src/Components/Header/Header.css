@@ -1,0 +1,15 @@
+nav{
+    width: 100vw;
+}
+
+.container-fluid a{
+    width: 20%;
+}
+
+.container-fluid span{
+    width: 80%;
+    color: #fff;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+}

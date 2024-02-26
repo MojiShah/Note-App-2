@@ -1,0 +1,23 @@
+.NoteClass {
+    border: 1px solid gray;
+    width: 27%;
+    padding: 15px 10px;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.NoteClass button{
+    padding: 10px;
+    background: transparent;
+    border: none;
+}
+
+.NoteClass button i{
+    font-size: 25px;
+}

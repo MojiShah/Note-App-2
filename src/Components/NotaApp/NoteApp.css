@@ -1,0 +1,63 @@
+.note_input {
+    width: 100%;
+}
+
+.form-input {
+    display: block;
+    width: 40%;
+    padding: 0.375rem 0.75rem;
+    height: 40px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    appearance: none;
+    background-color: var(--bs-body-bg);
+    margin: 50px auto 10px;
+    border-radius: 10px;
+}
+
+.btns {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btns button {
+    width: 40px;
+    height: 40px;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+.btns button:nth-child(1) {
+    color: green;
+    margin-right: 10px;
+}
+
+.btns button:nth-child(2) {
+    color: red;
+}
+
+.colors-list {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.notes {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: crimson;
+}
+
